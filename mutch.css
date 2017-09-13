@@ -1,0 +1,210 @@
+body {
+	  	font-family : Verdana, Arial, Helvetica, sans-serif; 
+		margin:0 0 0 0em;
+		padding:0em;
+		font-size: 0.9em;
+		}
+.buttons {
+	  	font-family : Verdana, Arial, Helvetica, sans-serif; 
+		font-size: 0.9em;
+		background-color:#6873f8;
+		background-image: none;
+		color: #ffffff;
+		}
+#bannermain {
+		position: absolute;
+		top: 0em;
+		height: 1em;
+		left: 0em;
+		width: 80%;
+		padding: 0.5em;
+		font-size: 1.1em;
+		font-weight: bold;
+		color: #ffffff;
+		background-color:#2828a6;
+		background-image: none;
+		}
+#bannercomment {
+		position: absolute;
+		top:2.25em;
+		left:12%;
+		width: 88%;
+		padding: 0.5em;
+		font-size: 0.9em;
+		font-weight: bold;
+		color: #ffffff;
+		background-color:#6873f8;
+		background-image: none;
+		}
+#leftcontentmain {
+		position: absolute;
+		left:3em;
+		top:6.5em;
+		width:19%;
+		min-width:10em;
+		font-size: 1em;
+		color: #000;
+		background-color: #fff;
+		background-image: none;
+		}
+#centercontentmain {
+		position: absolute;
+		left:22%;
+		top:4.5em;
+		width:74%;
+		padding: 0.5em;
+		font-size: 0.9em;
+		color: #000;
+		background-color:#aaddfb;
+		background-image: none;
+		}
+.itemmain {
+		text-align: center;
+		padding: 1em 1em 1em 1em;
+		margin: 0 1em 0 1em;
+		font-size: 0.9em;
+		color: #000;
+		background-color:#fff;
+		background-image: none;
+		}
+.itemmainleft {
+		text-align: left;
+		padding: 1em 1em 1em 1em;
+		margin: 0 1em 0 1em;
+		font-size: 0.9em;
+		color: #000;
+		background-color:#fff;
+		background-image: none;
+		}
+.column1 {
+		position: absolute;
+		left:2%;
+		width:46%;
+		min-width:10em;
+		background-color:#6873f8;
+		}
+.column2 {
+		position: relative;
+		left:52%;
+		width:46%;
+		min-width:10em;
+		background-color:#6873f8;
+		}
+.note {
+	   	font-size: 0.9em;
+		color: #808080;
+		}
+.notebold {
+	   	font-size: 0.9em;
+		font-weight: bold;
+		color: #808080;
+		}
+.linktitle {
+		padding: 0.5em 0.5em 1em 1em;
+		font-size: 0.9em;
+		font-weight: bold;
+		color: #000000;
+		}
+.title {
+		font-size: 1em;
+		font-weight: bold;
+		color: #000000;
+		}
+.hilite {
+		font-size: 1.1em;
+		font-weight: bold;
+		color: red;
+		}
+font.footnote {
+		font-style: italic; 
+		font-size: 0.8em; 
+		font-family: Verdana, Arial, Helvetica, sans-serif; 
+		color : #0000a0; 
+		} 
+a:link , a:visited {
+	   color : #933; 
+	   font-weight: bold;
+	   text-decoration : none; 
+	   }
+a:hover {
+		color : #0000a0; 
+		font-weight: bold;
+		} 
+a.menu:hover {
+	   color : #0000a0;
+	   font-weight: bold;
+	   padding: 0.1em 0.5em 0.1em 0.5em;
+	   margin: 0 1em 0 1em;
+	   background-color : #6873f8;
+       background-image: none;
+	   border-top : 2px solid #ffffff ;
+	   border-left : 2px solid #ffffff ;
+	   border-right : 2px solid #808080 ;
+	   border-bottom : 2px solid #808080 ;
+	   } 
+a.menu {
+		color : #ffffff; 
+		font-weight: bold;
+	   	padding: 0.1em 0.5em 0.1em 0.5em;
+	   	margin: 0 1em 0 1em;
+	   	background-color : #6873f8;
+		background-image: none;
+	   	border-top : 2px solid #ffffff ;
+	   	border-left : 2px solid #ffffff ;
+	   	border-right : 2px solid #808080 ;
+	   	border-bottom : 2px solid #808080 ;
+		} 
+img.floatleft {
+		position: relative;
+		float: left;
+		clear: both;
+		margin: 0em 1em 1em 1em;
+		background-color:#ffffff ;
+		background-image: none;
+		}
+p.floatright {
+		position: relative;
+		clear: both;
+		margin: 0 1em 0 1em;
+		background-color:#ffffff ;
+		background-image: none;
+		}
+img.floatright {
+		position: relative;
+		float: right;
+		clear: both;
+		margin: 0em 1em 1em 1em;
+		background-color:#ffffff;
+		background-image: none;
+		}
+p.floatleft {
+		position: relative;
+		clear: both;
+		margin: 0 1em 0 1em;
+		background-color:#ffffff;
+		background-image: none;
+		}
+ul.children {
+		margin: 0 0.9em 0 0.9em;
+		padding: 0 1em 0 3em;
+		list-style-type: lower-roman;
+		background-color:#ffffff;
+		background-image: none;
+		}
+ul {
+		margin: 0 0.9em 0 0.9em;
+		padding: 0 1em 0 3em;
+		list-style-type: disc;
+		background-color:#ffffff;
+		background-image: none;
+		}
+li {
+		padding: 0 0 0.5em 0;
+		font-size: 0.9em;
+		background-color:#ffffff;
+		background-image: none;
+		} 
+.printtext {
+	  	display: none;
+		}
+		
