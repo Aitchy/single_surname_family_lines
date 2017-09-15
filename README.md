@@ -7,4 +7,4 @@ I built a php/mysql driven website to record and deliver information on differen
 
 This was developed by me for my own use and was expanded to include files for data entry and modification in the website.
 
-Now I want to share my files and work with others to make a generic solution threat others can use on similar projects.
+Now I want to share my files and work with others to make a generic solution that provides a tool for other single surname researchers.
